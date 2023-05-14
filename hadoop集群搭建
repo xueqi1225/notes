@@ -1,0 +1,16 @@
+shift ZZ =wq # 保存并退出
+：set nu #显示行号
+reboot #重启虚拟机
+su #切换用户 切root输入密码 其他不用
+pwd #打印当前绝对路径
+cat #是打印当前文件的内容。和vim 不同的是在终端打印的
+yum install rsync #安装下载
+BOOTPROTO = "static" #d动态改成静态IP
+--
+--
+--
+--
+ONBOOT="yes"
+IPADDR=192.168.10.100  #ip具体地址
+GATEWAY=192.168.10.2   #网关
+DNS1=192.168.10.2      #上网域名解析
